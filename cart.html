@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+</head> <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800&display=swap" rel="stylesheet">
+<body>
+    <!--Nav Bar-->
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Classic Fits</a>
+        <div class="navbar__toggle" id="mobile menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">About Us</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Fits</a>
+            <li class="navbar__item">
+                <a href="/cart.html" class="navbar__links">My Cart</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Shopping Cart-->
+<div class="cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <span id="amount" class="amount"></span>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/images/white.png" alt="/">
+                    <div>
+                        <p>White Hoodie</p>
+                        <small>Price: $19.99</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$19.99</td>
+            </div>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/images/purple.jpeg" alt="/">
+                    <div>
+                        <p>Purple Hoodie</p>
+                        <small>Price: $19.99</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$19.99</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/images/pink.png" alt="/">
+                    <div>
+                        <p>Pink Hoodie</p>
+                        <small>Price: $19.99</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$19.99</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="/images/black.jpeg" alt="/">
+                    <div>
+                        <p>Black Hoodie</p>
+                        <small>Price: $19.99</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$19.99</td>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$79.96</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$15.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$94.96</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    <!--Footer Section-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">Who We Are</a>
+                    <a href="/">Our Designs</a>
+                    <a href="/">Our Store</a>
+                <div class="footer__link--items">
+                    <h2>Seasons</h2>
+                    <a href="/">Spring</a>
+                    <a href="/">Winter</a>
+                    <a href="/">Autumn</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Email</a>
+                    <a href="/">FAQs</a>
+                    <a href="/">Questions</a>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas fa-gem"></i>Classic Fit</a>
+                </div>
+                <p class="website__rights">© Classic Fit 2021. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
